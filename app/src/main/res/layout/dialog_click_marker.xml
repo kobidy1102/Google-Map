@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="139dp"
+            android:layout_height="70dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_chiDuong"
+            android:layout_width="129dp"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="Đóng chỉ đường"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_chatRieng"
+            android:layout_width="129dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Chat riêng"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_chiDuong" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
